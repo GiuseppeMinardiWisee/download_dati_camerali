@@ -13,7 +13,7 @@ Questo script Bash consente di esportare i dati di una vista in un file separato
 Per installare il comando ```psql``` usre i seguenti codici
 
 ```
-sudo apt updatea $$ sudo apt install postgresql postgresql-contrib
+sudo apt update $$ sudo apt install postgresql postgresql-contrib
 sudo systemctl start postgresql.service
 ```
 
@@ -34,7 +34,7 @@ Il file .pgpass consente di specificare le credenziali di accesso al database in
 
 In modo più conciso:
 ```
-echo "hostname:port:database:username:password" > ~/.pgpass && chmod 600 ~/.pgpass
+echo "hostname:port:database:username:password" >> ~/.pgpass && chmod 600 ~/.pgpass
 ```
 
 ### Utilizzo dello script
